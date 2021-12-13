@@ -1,0 +1,214 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #4a4a4a;
+}
+
+/* sourced from https://www.w3schools.com/css/css_navbar.asp */
+.nav{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #13999e;
+  border-top: 1px solid #14FFEC;
+  border-bottom: 1px solid #14FFEC;
+}
+
+/* sourced from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+.nav li{
+  float: left;
+  width: 75px;
+}
+
+/* sourced from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+.nav li a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  color: black;
+  background-color: #13999e;
+}
+
+/* sourced from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+.nav li a:hover{
+  text-decoration: underline;
+  color: black;
+  background-color: #14FFEC;
+}
+
+h1{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.intro{
+  text-align: center;
+  padding: 15px;
+  color: #14FFEC;
+}
+
+#resume{
+  line-height: 1.5;
+  margin-top: 35px;
+  margin-left: 50%;
+  transform: translate(-50%); /* sourced from https://www.w3schools.com/cssref/css3_pr_transform.asp */
+  min-width: 800px;
+  max-width: 800px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+  border: solid 2px #13999e;
+  box-shadow: 10px 10px #212121;
+}
+
+#resume h1{
+  text-align: center;
+  background-color: white;
+}
+
+#resume h2{
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2px;
+  background-color: white;
+}
+
+#resume p{
+  background-color: white;
+}
+
+#resume .profile{
+  padding-top: 15px;
+  border-top: 1px grey solid;
+}
+
+#resume h4{
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  background-color: white;
+}
+
+#resume h5{
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 10px;
+  left: 50px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+
+#resume li{
+  background-color: white;
+}
+
+ul{
+  list-style-type: circle;
+  padding-left: 50px;
+  background-color: white;
+}
+
+button{
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  width: 75px;
+  padding: 10px;
+  background-color: #13999e;
+  border: none;
+  border-top: 1px solid #14FFEC;
+  border-bottom: 1px solid #14FFEC;
+}
+
+button:hover{
+  text-decoration: underline;
+  background-color: #14FFEC;
+}
+
+#HTMLcheatSheet{
+  display: none;
+  line-height: 1.5;
+  margin: 25px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  min-width: 600px;
+  padding: 25px;
+  padding-top: 0px;
+  color: white;
+  background-color: white;
+  border: solid 2px #13999e;
+  box-shadow: 10px 10px #212121;
+}
+
+#HTMLcheatSheet p{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#HTMLcheatSheet b{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#HTMLcheatSheet i{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#HTMLcheatSheet a{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#HTMLcheatSheet h3{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#CSScheatSheet{
+  display: none;
+  line-height: 1.5;
+  margin: 25px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  min-width: 600px;
+  padding: 25px;
+  padding-top: 0px;
+  color: white;
+  background-color: white;
+  border: solid 2px #13999e;
+  box-shadow: 10px 10px #212121;
+}
+
+#CSScheatSheet p{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#CSScheatSheet b{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#CSScheatSheet i{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#CSScheatSheet a{
+  color: #4a4a4a;
+  background-color: white;
+}
+
+#CSScheatSheet h3{
+  color: #4a4a4a;
+  background-color: white;
+}

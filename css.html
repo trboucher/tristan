@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <ul class="nav">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="html.html">HTML</a></li>
+     <li><a href="css.html">CSS</a></li>
+    </ul>
+
+    <h1>CSS Cheat-sheet</h1>
+
+    <p class="intro">Here are some notes and things I've learned along the way to help me with styling my HTML. <br>
+    Some aren't commonly used, so this is a perfect sheet to reference if I don't remember the styling commands.</p>
+
+    <button id="viewButton2" onclick="reveal2()" type="button" name="button">View!</button>
+
+    <div id="CSScheatSheet">
+      <br>
+      <p>
+        <b>Position:</b> absolute, block, inline, inline-block <br>
+        <b>Colour:</b> rgb, rgba(0,0,0,0) <br>
+        <b>Text-transform:</b> capitalize, uppercase, lowercase <br>
+        <b>Float:</b> left, right, center <br>
+        <b>Width/Height:</b> vh, vw, px, <i>calc(var(--divHeight))</i>, <i>calc(var(--divWidth))</i> - <i>(must have :root{
+          --GameWidth: #vh;
+          --GameHeight: #vh;
+        } in the CSS file to make use of divHeight/Width)</i> <br>
+        <b>Center an Object:</b> left: 50%; transform: translate(-50%); <br>
+        <b>Grid-template-columns:</b> auto (<i>an 'auto' for each column I want to create</i>) <br>
+        <b>Grid-gap:</b> px <br>
+        <b>Border:</b> colour, px, solid, dotted, dashed, double, none, hidden <br>
+        <b>Border-radius:</b> percent (<i>50% to make a circle</i>) <br>
+        <b>Line-height:</b> number (default = 1) <br>
+      </p>
+      <h3>CSS Notes</h3>
+      <p>
+        # to select ID <br>
+        . to select Class <br>
+        Adding comments: /* &nbsp; */ <br>
+        <a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a>
+      </p>
+    </div>
+
+   <script src="script.js"></script>
+  </body>
+</html>
